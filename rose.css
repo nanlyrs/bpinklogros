@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+body{
+    font-family: 'Prompt', sans-serif;
+    background-color: rgb(0, 0, 0);
+    
+}
+
+img{
+    max-width: 100%;
+
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.logo{
+    margin-top: 13px;
+    width: 150px;
+}
+
+.header{
+    background-image: url(img/roseup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+.menu{
+    color: white;
+    position:absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+
+}
+
+.menu .navbar li{
+    position: relative;
+    float: left;
+}
+
+.menu .navbar li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    display: block;
+}
+
+.menu .navbar li a:hover{
+    color: #5f1919;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 50px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content{
+    display: flex;
+}
+
+.header-txt{
+    flex-basis: 50%;
+}
+
+.header-txt{
+    font-size: 20px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.header-txt p{
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+
+.buttons{
+    display:flex;
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5, .btn-6, .btn-7{
+    display:inline-block;
+    padding: 11px 35px;
+    border: 1px solid #5f1919;
+    border-radius: 25px;
+    margin-right: 25px;
+    font-size: 12px;
+    color: white;
+}
+
+.btn-1:hover{
+    background-color: #5f1919;
+}
+
+.btn-2:hover{
+    background-color: #5f1919;
+}
+
+.btn-3:hover{
+    background-color: #5f1919;
+}
+
+.btn-4:hover{
+    background-color: #5f1919;
+}
+
+.btn-5:hover{
+    background-color: #5f1919;
+}
+
+.btn-6:hover{
+    background-color: #5f1919;
+}
+
+.btn-7:hover{
+    background-color: #5f1919;
+}
+
+.logros{
+    padding: 100px 0;
+    text-align: center;
+}
+
+h2{
+    color: #5f1919;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.logros-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.gv{
+    background-color: #181717;
+}
+
+.premios{
+    background-color: #181717;
+}
+
+.part{
+    background-color: #181717;
+}
+
+.charts{
+    background-color: #181717;
+}
+
+.logros-txt{
+    padding: 50px 30px;
+}
+
+h3{
+    font-size: 20px;
+    color: #5f1919;
+    margin-bottom: 5px;
+}
+
+p{
+    display: flex;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact{
+    padding: 150px 350px;
+}
+
+.contact{
+    background-image: url(img/rosedown.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+input{
+    padding: 15px 45px;
+    background-color: #181717;
+    border: 0;
+    border-radius: 25px;
+    outline: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 14px;
+}
+
+::placeholder{
+    color: gray;
+    font-size: 14px;
+}
+
+.btn-8{
+    color: white;
+    background-color: #5f1919;
+    cursor: pointer;
+    margin-right: 0;
+    text-align: center;
+    padding: 10px 35px;
+    border-radius: 25px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.link ul{
+    display: flex;
+}
+
+.link ul li > a{
+    font-size: 17px;
+    color: white;
+    margin-right: 20px;
+}
+
+.link ul li > a:hover{
+    color: #5f1919;
+}
+
+@media(max-width:991px){
+    .logo{
+        margin-top: 1px;
+    }
+
+    h1{
+        margin-top: 15px;
+    }
+
+    .menu{
+        padding: 20px;
+    }
+
+    .menu label{
+        display: initial;
+    }
+
+    .menu .navbar{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: black;
+        display: none;
+    }
+
+    .menu .navbar ul li a:hover{
+        color:black;
+    }
+
+    .menu .navbar ul li{
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar{
+        display: initial;
+    }
+
+    .header{
+        min-height: 0vh;
+        padding: 80px 30px 50px 30px;
+    }
+
+    .header-txt{
+        text-align: center;
+        flex-basis: 100%;
+    }
+
+    .header-txt h1{
+        font-size: 50px;
+        margin-bottom: 15px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    .btn-1:last-of-type{
+        margin-right: 0;
+    }
+
+    .logros{
+        padding:30px;
+    }
+
+    .logros-container{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+    .gv img{
+        width: 100%;
+    }
+
+    .premios img{
+        width: 100%;
+    }
+
+    .part img{
+        width: 100%;
+    }
+
+    .charts img{
+        width: 100%;
+    }
+
+    .contact{
+        text-align: center;
+        padding: 30px;
+        background-position: center;
+    }
+
+    form{
+        flex-direction: column;
+    }
+
+    input{
+        margin: 0 0 20px 0;
+    }
+
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .link ul{
+        margin-top: 20px;
+    }
+
+
+
+}

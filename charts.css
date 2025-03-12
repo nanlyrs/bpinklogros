@@ -1,0 +1,27 @@
+.charts{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.picos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.picos-txt{
+    padding: 50px 30px;
+}
+
+@media(max-width:991px){
+    .charts{
+        padding:30px;
+    }
+
+    .picos{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+
+}
